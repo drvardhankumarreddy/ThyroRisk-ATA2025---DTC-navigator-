@@ -2,12 +2,12 @@
 import '@angular/compiler'; // Critical: Must be first import for JIT
 import { enableProdMode } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideZonelessChangeDetection } from '@angular/core';
+import { provideExperimentalZonelessChangeDetection } from '@angular/core';
 import { AppComponent } from './src/app.component';
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideZonelessChangeDetection()
+    provideExperimentalZonelessChangeDetection()
   ]
 }).catch(err => console.error(err));
 
