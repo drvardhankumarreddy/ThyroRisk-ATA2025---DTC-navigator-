@@ -16,7 +16,9 @@
             "outputPath": "dist/ata-2025-companion",
             "index": "index.html",
             "browser": "src/main.ts",
-            "polyfills": [],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.json",
             "assets": [
               { "glob": "**/*", "input": "public", "output": "." }
