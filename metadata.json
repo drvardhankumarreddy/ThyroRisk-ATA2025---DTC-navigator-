@@ -1,0 +1,5 @@
+{
+  "name": "ATA 2025 Thyroid Guidelines Companion",
+  "description": "A comprehensive clinical decision support tool based on the 2025 American Thyroid Association Management Guidelines for Adult Patients with Differentiated Thyroid Cancer. Features risk stratification, surgical recommendations, and long-term management calculators.",
+  "requestFramePermissions": []
+}
